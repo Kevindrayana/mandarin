@@ -1,0 +1,11 @@
+reference: https://learninghsk.com/hsk3/
+
+sqllite + python be + react fe
+
+id, tags (HSK lvl), word, meaning
+
+I want to create a website which tests our HSK level. Let's start with level 3, and we want to have a bank of vocabularies with the Hanzi opinion and the English meaning. Per test, there will be 20 questions, and we will randomly pick for them whether we will test them:
+- given opinion
+- we test the Hanzi
+- given a Hanzi, we test their meaning
+- given the meaning, we test them the Hanzi
