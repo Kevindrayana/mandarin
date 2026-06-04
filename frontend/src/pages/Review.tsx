@@ -1,8 +1,18 @@
 import { useCallback, useEffect, useState } from 'react'
-import { ReviewMistakesSection } from '../components/ReviewMistakesSection'
+import { Link } from 'react-router-dom'
 import { clearReview, fetchReview, type ReviewItem } from '../api'
 
-const HSK = 3
+type GroupedItems = Map<number, ReviewItem[]>
+
+function groupByLevel(items: ReviewItem[]): GroupedItems {
+  const map: GroupedItems = new Map()
+  for (const item of items) {
+    const group = map.get(item.hsk_level) ?? []
+    group.push(item)
+    map.set(item.hsk_level, group)
+  }
+  return map
+}
 
 export function Review() {
   const [items, setItems] = useState<ReviewItem[]>([])
@@ -14,7 +24,7 @@ export function Review() {
     setLoading(true)
     setError(null)
     try {
-      const data = await fetchReview(HSK)
+      const data = await fetchReview()
       setItems(data.items)
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Failed to load review list')
@@ -32,7 +42,7 @@ export function Review() {
     setClearing(true)
     setError(null)
     try {
-      await clearReview(HSK)
+      await clearReview()
       setItems([])
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Could not clear list')
@@ -49,17 +59,39 @@ export function Review() {
     )
   }
 
+  const grouped = groupByLevel(items)
+  const levels = Array.from(grouped.keys()).sort((a, b) => a - b)
+
   return (
     <div className="page review">
       <div className="review-head">
         <h1 className="page-title">Review</h1>
         <p className="lede">
-          Words and question types from recent mistakes (HSK {HSK}). Study them and run
-          another quiz.
+          Words from recent mistakes across all HSK levels. Study them and run another quiz.
         </p>
       </div>
 
-      <ReviewMistakesSection count={items.length} hskLevel={HSK} />
+      {levels.length > 0 && (
+        <section className="review-mistakes-section" aria-labelledby="review-quiz-heading">
+          <h2 id="review-quiz-heading" className="section-title">Quiz from mistakes</h2>
+          <div className="level-grid">
+            {levels.map((lv) => {
+              const count = grouped.get(lv)!.length
+              return (
+                <Link
+                  key={lv}
+                  to="/quiz"
+                  state={{ mode: 'review' as const, hskLevel: lv }}
+                  className="level-card level-card--active"
+                >
+                  <span className="level-num">HSK {lv}</span>
+                  <span className="level-note">{count} word{count === 1 ? '' : 's'}</span>
+                </Link>
+              )
+            })}
+          </div>
+        </section>
+      )}
 
       <div className="review-toolbar">
         <button
@@ -68,7 +100,7 @@ export function Review() {
           onClick={() => void onClear()}
           disabled={!items.length || clearing}
         >
-          {clearing ? 'Clearing…' : 'Clear review list'}
+          {clearing ? 'Clearing…' : 'Clear all mistakes'}
         </button>
       </div>
 
@@ -81,6 +113,7 @@ export function Review() {
           <table className="review-table">
             <thead>
               <tr>
+                <th>HSK</th>
                 <th>Hanzi</th>
                 <th>Pinyin</th>
                 <th>Meaning</th>
@@ -89,6 +122,7 @@ export function Review() {
             <tbody>
               {items.map((r) => (
                 <tr key={r.review_id}>
+                  <td>{r.hsk_level}</td>
                   <td lang="zh-Hans">{r.hanzi}</td>
                   <td>{r.pinyin}</td>
                   <td>{r.meaning}</td>

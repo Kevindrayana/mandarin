@@ -10,7 +10,7 @@ _BACKEND = Path(__file__).resolve().parent
 if str(_BACKEND) not in sys.path:
     sys.path.insert(0, str(_BACKEND))
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 
 from models import connect, init_schema
@@ -29,7 +29,8 @@ def _review_user_id() -> str:
 
 
 def create_app() -> Flask:
-    app = Flask(__name__)
+    static_folder = Path(__file__).resolve().parents[1] / "frontend" / "dist"
+    app = Flask(__name__, static_folder=str(static_folder), static_url_path="")
     origins = os.environ.get(
         "CORS_ORIGINS",
         "http://localhost:5173,http://127.0.0.1:5173",
@@ -103,6 +104,14 @@ def create_app() -> Flask:
     init_schema(conn)
     conn.close()
 
+    @app.route("/", defaults={"path": ""})
+    @app.route("/<path:path>")
+    def spa_index(path):
+        index = Path(app.static_folder) / "index.html"
+        if index.exists():
+            return send_from_directory(app.static_folder, "index.html")
+        return jsonify({"error": "Frontend not built"}), 404
+
     return app
 
 
@@ -118,4 +127,4 @@ app = create_app()
 if __name__ == "__main__":
     init_db_command()
     port = int(os.environ.get("PORT", "5000"))
-    app.run(host="127.0.0.1", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port, debug=False)

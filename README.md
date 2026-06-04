@@ -1,6 +1,6 @@
 # HSK vocabulary quiz
 
-Flask + SQLite backend and React (Vite) frontend. Practice HSK 3 vocabulary with multiple-choice questions (Hanzi → meaning, Hanzi → pinyin, meaning → Hanzi). Wrong answers are stored in SQLite for the Review tab. You can run a **review-only quiz** that draws only words currently in your mistake list.
+Flask + SQLite backend and React (Vite) frontend. The seed data is organized as `data/hsk1` through `data/hsk6`, using textbook-aligned old HSK (2012) vocabulary lists. The current frontend flow still focuses on HSK 3 practice, with multiple-choice questions (Hanzi → meaning, Hanzi → pinyin, meaning → Hanzi). Wrong answers are stored in SQLite for the Review tab. You can run a **review-only quiz** that draws only words currently in your mistake list.
 
 ## Prerequisites
 
@@ -16,12 +16,21 @@ python3 -m pip install -r requirements.txt
 python3 backend/scripts/seed_db.py
 ```
 
-This creates `backend/instance/app.db` and loads curated vocabulary CSVs from `data/hsk*/vocabulary.csv`. Re-run the script any time you change a CSV (rows are upserted by HSK level + Hanzi).
+This creates `backend/instance/app.db` and loads vocabulary CSVs from `data/hsk*/vocabulary.csv`. Re-run the script any time you change a CSV. The seeder replaces each level's rows before inserting the fresh file, so old vocabulary does not linger in SQLite.
 
-The bundled HSK 3 seed currently lists about **970** entries, stored at [`data/hsk3/vocabulary.csv`](data/hsk3/vocabulary.csv). The generated base comes from HSK 3.0 “Level 3” data from [ivankra/hsk30](https://github.com/ivankra/hsk30), with English glosses merged from [clem109/hsk-vocabulary](https://github.com/clem109/hsk-vocabulary) and [CC-CEDICT](https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz) (MDBG) via [`backend/scripts/generate_hsk3_seed.py`](backend/scripts/generate_hsk3_seed.py), then curated locally. Regenerating requires network access:
+The bundled seeds are textbook-aligned old HSK (2012) lists:
+
+- HSK 1: 150 rows
+- HSK 2: 151 rows from the upstream source file
+- HSK 3: 300 rows
+- HSK 4: 600 rows
+- HSK 5: 1300 rows
+- HSK 6: 2500 rows
+
+They are generated from the `HSK Official With Definitions 2012` source files in [glxxyz/hskhsk.com](https://github.com/glxxyz/hskhsk.com) via [`backend/scripts/generate_hsk_legacy_seeds.py`](backend/scripts/generate_hsk_legacy_seeds.py). Regenerating requires network access:
 
 ```bash
-python3 backend/scripts/generate_hsk3_seed.py
+python3 backend/scripts/generate_hsk_legacy_seeds.py
 ```
 
 ### 2. Run the API
@@ -69,6 +78,6 @@ Serve the `frontend/dist` folder with any static host; configure it to proxy `/a
 ## Project layout
 
 - [`data/hsk1/`](data/hsk1/) … [`data/hsk6/`](data/hsk6/) — per-level vocabulary directories.
-- [`data/hsk3/vocabulary.csv`](data/hsk3/vocabulary.csv) — current curated HSK 3 vocabulary seed.
+- [`data/hsk3/vocabulary.csv`](data/hsk3/vocabulary.csv) — textbook-aligned HSK 3 vocabulary seed.
 - [`backend/`](backend/) — Flask app, SQLite schema, quiz logic.
 - [`frontend/`](frontend/) — React UI (Quiz landing with level + review modes, active quiz, Review list).

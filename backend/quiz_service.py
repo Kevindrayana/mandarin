@@ -245,12 +245,12 @@ def fetch_review(hsk_level: int | None, user_id: str) -> list[dict[str, Any]]:
         rows = conn.execute(
             """
             SELECT MAX(r.id) AS review_id, MAX(r.created_at) AS created_at,
-                   v.id AS vocab_id, v.hanzi, v.pinyin, v.meaning
+                   v.id AS vocab_id, v.hsk_level, v.hanzi, v.pinyin, v.meaning
             FROM review_items r
             JOIN vocabulary v ON v.id = r.vocab_id
             WHERE r.user_id = ?
-            GROUP BY v.id, v.hanzi, v.pinyin, v.meaning
-            ORDER BY created_at DESC
+            GROUP BY v.id, v.hsk_level, v.hanzi, v.pinyin, v.meaning
+            ORDER BY v.hsk_level, created_at DESC
             """,
             (user_id,),
         ).fetchall()
@@ -258,11 +258,11 @@ def fetch_review(hsk_level: int | None, user_id: str) -> list[dict[str, Any]]:
         rows = conn.execute(
             """
             SELECT MAX(r.id) AS review_id, MAX(r.created_at) AS created_at,
-                   v.id AS vocab_id, v.hanzi, v.pinyin, v.meaning
+                   v.id AS vocab_id, v.hsk_level, v.hanzi, v.pinyin, v.meaning
             FROM review_items r
             JOIN vocabulary v ON v.id = r.vocab_id
             WHERE v.hsk_level = ? AND r.user_id = ?
-            GROUP BY v.id, v.hanzi, v.pinyin, v.meaning
+            GROUP BY v.id, v.hsk_level, v.hanzi, v.pinyin, v.meaning
             ORDER BY created_at DESC
             """,
             (hsk_level, user_id),

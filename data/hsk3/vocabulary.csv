@@ -1,971 +1,301 @@
 hsk_level,hanzi,pinyin,meaning
-3,爱心,àixīn,compassion
-3,安排,ānpái,to arrange
-3,安装,ānzhuāng,to install
-3,按,àn,to press
-3,按照,ànzhào,according to
-3,把,bǎ,to hold
-3,把握,bǎwò,to grasp (also fig.)
-3,白,bái,white
-3,白菜,báicài,"Chinese cabbage, esp. napa cabbage (Brassica rapa subsp. pekinensis)"
-3,班级,bānjí,class (group of students)
-3,搬,bān,to move
-3,搬家,bānjiā,to move house; to relocate
-3,板,bǎn,board
-3,办理,bànlǐ,to handle
-3,保,bǎo,Bulgaria (abbr. for 保加利亞|保加利亚[Bao3 jia1 li4 ya4])
-3,保安,bǎo'ān,to ensure public security
-3,保持,bǎochí,to keep
-3,保存,bǎocún,to conserve
-3,保护,bǎohù,to protect
-3,保留,bǎoliú,to retain
-3,保险,bǎoxiǎn,insurance
-3,保证,bǎozhèng,guarantee
-3,报,bào,to report; to inform; to announce
-3,报到,bàodào,to report for duty
-3,报道,bàodào,report
-3,报告,bàogào,to inform
-3,背,bēi,the back of a body or object
-3,北部,běibù,northern part
-3,背后,bèihòu,behind
-3,被,bèi,quilt
-3,被子,bèizi,quilt
-3,本来,běnlái,original
-3,本领,běnlǐng,skill
-3,本事,běnshi,ability
-3,比较,bǐjiào,to compare
-3,比例,bǐlì,proportion
-3,比赛,bǐsài,competition (sports etc)
-3,必然,bìrán,inevitable
-3,必要,bìyào,necessary
+3,阿姨,āyí,auntie; step-mother; mother's younger sister
+3,啊,a,"ah; (particle showing elation, doubt, puzzled surprise, or approval)"
+3,矮,ǎi,short; low
+3,爱好,àihào,hobby; fond of; to like
+3,安静,ānjìng,quiet; peaceful; calm
+3,把,bǎ,(mw for things with handles); (pretransitive particle); to hold
+3,班,bān,team; class; squad
+3,搬,bān,to move; to transport
+3,办法,bànfǎ,method; way (of doing something)
+3,办公室,bàngōngshì,office
+3,半,bàn,half; semi-; incomplete
+3,帮忙,bāngmáng,to help
+3,包,bāo,to cover; to wrap; to hold
+3,饱,bǎo,eat until full; satisfied
+3,北方,běifāng,north; the northern part of the country
+3,被,bèi,by (indicates passive voice sentences); a quilt/blanket
+3,鼻子,bízi,nose
+3,比较,bǐjiào,compare; contrast; relatively
+3,比赛,bǐsài,(sports) match; competition
+3,笔记本,bǐjìběn,notebook
+3,必须,bìxū,must; have to
 3,变化,biànhuà,change
-3,变为,biànwéi,to change into
-3,标题,biāotí,title
-3,标准,biāozhǔn,(an official) standard
-3,表达,biǎodá,to voice (an opinion)
-3,表格,biǎogé,form
-3,表面,biǎomiàn,surface
-3,表明,biǎomíng,to make clear
-3,表现,biǎoxiàn,to show
-3,表演,biǎoyǎn,play
-3,并,bìng,and
-3,并且,bìngqiě,and
-3,播出,bōchū,to broadcast
-3,播放,bōfàng,to broadcast
-3,不必,bùbì,need not
-3,不断,bùduàn,unceasing
-3,不论,bùlùn,whatever
-3,补,bǔ,to repair
-3,补充,bǔchōng,to replenish
-3,不安,bù'ān,unpeaceful
-3,不得不,bùdébù,have no choice or option but to
-3,不光,bùguāng,not the only one
-3,不仅,bùjǐn,not only (this one)
-3,布,bù,cloth
-3,步,bù,surname Bu
-3,部,bù,ministry
-3,部门,bùmén,department
-3,部长,bùzhǎng,head of a (government etc) department
-3,才能,cáinéng,talent
-3,采取,cǎiqǔ,to adopt or carry out (measures
-3,采用,cǎiyòng,to adopt
-3,彩色,cǎisè,color
-3,曾经,céngjīng,once
-3,产生,chǎnshēng,to arise
-3,长城,Chángchéng,the Great Wall
-3,长处,chángchù,good aspects
-3,长期,chángqī,long-term; for a protracted period
-3,厂,chǎng,"""cliff"" radical in Chinese characters (Kangxi radical 27), occurring in 原, 历, 压 etc"
-3,场合,chǎnghé,situation
-3,场所,chǎngsuǒ,location
-3,超级,chāojí,super-
-3,朝,cháo,imperial or royal court
-3,吵,chǎo,to quarrel
-3,吵架,chǎojià,to quarrel
-3,衬衫,chènshān,shirt
-3,衬衣,chènyī,shirt
-3,称为,chēngwéi,"to be called; to be known as; to call it ""..."""
-3,成功,chénggōng,success
-3,成果,chéngguǒ,result
-3,成就,chéngjiù,accomplishment
-3,成立,chénglì,to establish
-3,成熟,chéngshú,mature
-3,成员,chéngyuán,member
-3,成长,chéngzhǎng,to mature
-3,城,chéng,city walls
-3,城市,chéngshì,city
-3,程度,chéngdù,degree (level or extent)
-3,持续,chíxù,to continue
-3,充满,chōngmǎn,full of
-3,重,chóng,heavy
-3,初,chū,(bound form) at first; initially
-3,初一,chūyī,first year in junior middle school
-3,初步,chūbù,initial
-3,初级,chūjí,junior
-3,初中,chūzhōng,junior high school (abbr. for 初級中學|初级中学[chu1 ji2 zhong1 xue2])
-3,除了,chúle,besides
-3,处理,chǔlǐ,to handle
-3,传,chuán,to pass on
-3,传播,chuánbō,to disseminate
-3,传来,chuánlái,(of a sound) to come through
-3,传说,chuánshuō,legend
-3,创新,chuàngxīn,innovation
-3,创业,chuàngyè,to begin an undertaking
-3,创造,chuàngzào,to create
-3,创作,chuàngzuò,to create
-3,从来,cónglái,always
-3,从前,cóngqián,previously
-3,从事,cóngshì,to go for
-3,村,cūn,village
-3,存,cún,to exist
-3,存在,cúnzài,to exist
-3,错误,cuòwù,error
-3,达到,dádào,to reach
-3,打破,dǎpò,to break; to smash
-3,打听,dǎting,to ask about
-3,大概,dàgài,roughly
-3,大使馆,dàshǐguǎn,embassy
-3,大约,dàyuē,approximately
-3,大夫,dàifu,doctor
-3,代,dài,to be a substitute for; to act on behalf of; to replace; to substitute
-3,代表,dàibiǎo,representative
-3,代表团,dàibiǎotuán,delegation
-3,带动,dàidòng,to spur; to provide impetus; to drive
-3,带领,dàilǐng,to guide
-3,单元,dānyuán,unit
-3,当初,dāngchū,at that time
-3,当地,dāngdì,local
-3,当然,dāngrán,only natural
-3,当中,dāngzhōng,among
-3,刀,dāo,knife
-3,导演,dǎoyǎn,to direct
-3,到达,dàodá,to reach
-3,到底,dàodǐ,finally
-3,得分,défēn,"to score a point (in a competition, test etc)"
-3,等待,děngdài,to wait
-3,底下,dǐxia,the location below sth
-3,地区,dìqū,local
-3,电视剧,diànshìjù,TV series
-3,电视台,diànshìtái,television station
-3,电台,diàntái,transmitter-receiver
+3,别人,biéren,other people; others
+3,冰箱,bīngxiāng,refrigerator
+3,不但,búdàn,not only
+3,而且,érqiě,moreover; in addition; as well as
+3,菜单,càidān,menu
+3,参加,cānjiā,participate; join; take part in
+3,草,cǎo,grass; straw; draft (of a document)
+3,层,céng,"(mw for layers, floors of buildings)"
+3,差,chà,differ from; fall short of; poor
+3,超市,chāoshì,supermarket
+3,衬衫,chènshān,shirt; blouse
+3,成绩,chéngjì,achievement; success; results (of work or study)
+3,城市,chéngshì,city or town
+3,迟到,chídào,arrive late
+3,除了,chúle,besides; except for; aside from
+3,船,chuán,a boat; vessel; ship
+3,春,chūn,spring (season); joyful
+3,词典,cídiǎn,dictionary
+3,聪明,cōngming,intelligent; clever; bright
+3,打扫,dǎsǎo,to clean; to sweep
+3,打算,dǎsuàn,to plan; intend
+3,带,dài,band; belt; ribbon
+3,担心,dānxīn,to worry; feel anxious
+3,蛋糕,dàngāo,cake
+3,当然,dāngrán,of course; naturally
+3,地,"dì, de",earth; ground; (adverbial particle)
+3,灯,dēng,lamp; light
+3,地方,dìfang,place; space; room
+3,地铁,dìtiě,subway
+3,地图,dìtú,map
+3,电梯,diàntī,elevator
 3,电子邮件,diànzǐ yóujiàn,email
-3,调,diào,to transfer
-3,调查,diàochá,investigation
-3,订,dìng,to agree
-3,定期,dìngqī,regularly
-3,东部,dōngbù,the east
-3,动力,dònglì,power
-3,动人,dòngrén,touching
-3,读者,dúzhě,reader
-3,短处,duǎnchù,shortcoming
-3,短裤,duǎnkù,short pants
-3,短期,duǎnqī,short-term
-3,断,duàn,to break
-3,队员,duìyuán,team member
-3,对待,duìdài,to treat
-3,对方,duìfāng,counterpart
-3,对手,duìshǒu,opponent
-3,对象,duìxiàng,target
-3,顿,dùn,to stop
-3,发表,fābiǎo,to issue
-3,发出,fāchū,"to issue (an order, decree etc); to send out; to dispatch"
-3,发达,fādá,developed (country etc)
-3,发动,fādòng,to start
-3,发明,fāmíng,to invent
-3,发生,fāshēng,to happen
-3,发送,fāsòng,to transmit
-3,发言,fāyán,to make a speech
-3,发展,fāzhǎn,development
-3,反对,fǎnduì,to fight against
-3,反复,fǎnfù,repeatedly
-3,反应,fǎnyìng,to react
-3,反正,fǎnzhèng,anyway
-3,范围,fànwéi,range
-3,方式,fāngshì,way (of life)
-3,防,fáng,to protect
-3,防止,fángzhǐ,to prevent
-3,房东,fángdōng,landlord
-3,房屋,fángwū,house
-3,房租,fángzū,rent for a room or house
-3,访问,fǎngwèn,to visit
-3,放到,fàngdào,(add English gloss)
-3,飞行,fēixíng,(of planes etc) to fly
-3,费,fèi,surname Fei
-3,费用,fèiyong,cost
-3,分别,fēnbié,to part or leave each other
-3,分配,fēnpèi,to distribute
-3,分组,fēn zǔ,to divide into groups
-3,丰富,fēngfù,to enrich
-3,风险,fēngxiǎn,risk
-3,否定,fǒudìng,to negate
-3,否认,fǒurèn,to declare to be untrue
-3,服装,fúzhuāng,dress
-3,福,fú,surname Fu
-3,父母,fùmǔ,father and mother; parents
-3,父亲,fùqīn,father
-3,付,fù,surname Fu
-3,负责,fùzé,to be in charge of
-3,复印,fùyìn,to photocopy
-3,复杂,fùzá,complicated
-3,富,fù,rich
-3,改进,gǎijìn,to improve
-3,改造,gǎizào,to transform
-3,概念,gàiniàn,concept
-3,赶,gǎn,to overtake; to catch up with
-3,赶到,gǎndào,to hurry (to some place)
-3,赶紧,gǎnjǐn,hurriedly
-3,赶快,gǎnkuài,at once
-3,敢,gǎn,to dare
-3,感冒,gǎnmào,to catch cold
-3,感情,gǎnqíng,feeling
-3,感受,gǎnshòu,to sense
-3,干吗,gànmá,variant of 幹嘛|干嘛[gan4 ma2]
-3,高速,gāosù,high speed
-3,高速公路,gāosù gōnglù,expressway; highway; freeway
-3,告别,gàobié,to leave
-3,歌迷,gēmí,fan of a singer
-3,歌声,gēshēng,singing voice
-3,歌手,gēshǒu,singer
-3,个人,gèrén,individual
-3,个性,gèxìng,individuality
-3,各,gè,each
-3,各地,gèdì,in all parts of (a country)
-3,各位,gèwèi,everybody
-3,各种,gèzhǒng,every kind of; all kinds of; various
-3,各自,gèzì,each
-3,根本,gēnběn,fundamental
-3,更加,gèngjiā,more (than sth else)
-3,工厂,gōngchǎng,factory
-3,工程师,gōngchéngshī,engineer
-3,工夫,gōngfu,time
-3,工具,gōngjù,tool
-3,工业,gōngyè,industry
-3,工资,gōngzī,wages
-3,公布,gōngbù,to announce
-3,公共,gōnggòng,public; common; communal
-3,公开,gōngkāi,public
-3,公民,gōngmín,citizen
-3,公务员,gōngwùyuán,civil servant; public servant
-3,功夫,gōngfu,skill
-3,功课,gōngkè,homework
-3,功能,gōngnéng,function
-3,共同,gòngtóng,common
-3,共有,gòngyǒu,in total there are ...
-3,姑娘,gūniang,girl
-3,古,gǔ,surname Gu
-3,古代,gǔdài,ancient times
-3,故乡,gùxiāng,home
-3,挂,guà,to hang or suspend (from a hook etc)
-3,关系,guānxì,variant of 關係|关系[guān xì]
-3,关注,guānzhù,to pay attention to; to follow sth closely; to follow (on social media)
-3,观察,guānchá,to observe
-3,观看,guānkàn,to watch; to view
-3,观念,guānniàn,notion
-3,观众,guānzhòng,spectators
-3,管,guǎn,variant of 管[guan3]
-3,管理,guǎnlǐ,to supervise
-3,光,guāng,light
-3,光明,guāngmíng,light
-3,广播,guǎngbō,broadcast
-3,广大,guǎngdà,(of an area) vast or extensive
-3,规定,guīdìng,provision
-3,规范,guīfàn,norm
-3,国内,guó nèi,domestic
-3,国庆,guóqìng,National Day
-3,果然,guǒrán,really
-3,果汁,guǒzhī,fruit juice
-3,过程,guòchéng,course of events
-3,过去,guòqù,(in the) past
-3,哈哈,hāhā,(onom.) laughing out loud
-3,海关,hǎiguān,customs (i.e. border crossing inspection)
-3,害怕,hàipà,to be afraid
-3,行,háng,to walk
-3,好好,hǎohǎo,well; carefully; nicely; properly
-3,好奇,hàoqí,inquisitive
-3,合,hé,100 ml
-3,合法,héfǎ,lawful
-3,合格,hégé,qualified
-3,合理,hélǐ,rational
-3,合作,hézuò,to cooperate
-3,和平,hépíng,peace
-3,红茶,hóngchá,black tea
-3,红酒,hóngjiǔ,red wine
-3,后果,hòuguǒ,consequences
-3,后面,hòumiàn,rear
-3,后年,hòunián,the year after next
-3,互联网,hùliánwǎng,the Internet
-3,互相,hùxiāng,each other
-3,划船,huáchuán,to row a boat
-3,华人,huárén,ethnic Chinese person or people
-3,化,huà,variant of 花[hua1]
-3,现代化,xiàndàihuà,modernization
-3,话剧,huàjù,stage play
-3,话题,huàtí,subject (of a talk or conversation)
-3,欢乐,huānlè,gaiety
-3,环,huán,surname Huan
-3,环保,huánbǎo,environmental protection
-3,环境,huánjìng,environment
-3,会议,huìyì,meeting
-3,会员,huìyuán,member
-3,活,huó,to live
-3,火,huǒ,fire
-3,机器,jīqì,machine
-3,积极,jījí,active
-3,基本,jīběn,basic
-3,基本上,jīběnshàng,basically
-3,基础,jīchǔ,base
-3,及时,jíshí,in time
-3,极了,jí le,extremely
-3,集体,jítǐ,collective
-3,集中,jízhōng,to concentrate
-3,计算,jìsuàn,to count
-3,记录,jìlù,to record
-3,记者,jìzhě,reporter
-3,纪录,jìlù,record
-3,纪念,jìniàn,to commemorate
-3,技术,jìshù,technology
-3,继续,jìxù,to continue
-3,加工,jiāgōng,to process
-3,加快,jiākuài,to accelerate; to speed up; to hasten
-3,加强,jiāqiáng,to reinforce; to strengthen; to enhance
-3,家具,jiājù,furniture
-3,家属,jiāshǔ,family member
-3,家乡,jiāxiāng,hometown
-3,价格,jiàgé,price
-3,价钱,jiàqián,price
-3,价值,jiàzhí,value
-3,架,jià,to support
-3,坚持,jiānchí,to persevere with
-3,坚决,jiānjué,firm
-3,坚强,jiānqiáng,staunch
-3,简单,jiǎndān,simple
-3,简直,jiǎnzhí,simply
-3,建,jiàn,to establish
-3,建成,jiànchéng,to establish
-3,建立,jiànlì,to establish
-3,建设,jiànshè,to build
-3,建议,jiànyì,to propose
-3,将近,jiāngjìn,almost
-3,将来,jiānglái,in the future
-3,交费,jiāofèi,to pay a fee
-3,交警,jiāojǐng,traffic police (abbr. for 交通警察[jiao1 tong1 jing3 cha2])
-3,交流,jiāoliú,to exchange
-3,交往,jiāowǎng,to associate
-3,交易,jiāoyì,(business) transaction
-3,叫,jiào,to shout
-3,较,jiào,(bound form) to compare
-3,教材,jiàocái,teaching material
-3,教练,jiàoliàn,instructor
-3,结实,jiēshi,rugged
-3,接待,jiēdài,to receive (a visitor)
-3,接近,jiējìn,to approach
-3,节约,jiéyuē,to economize
-3,结合,jiéhé,to combine
-3,结婚,jiéhūn,to marry
-3,结束,jiéshù,termination
-3,解决,jiějué,to settle (a dispute)
-3,解开,jiěkāi,to untie
-3,金,jīn,surname Jin
-3,金牌,jīnpái,gold medal
-3,仅,jǐn,barely
-3,仅仅,jǐnjǐn,barely
-3,尽量,jǐnliàng,as much as possible
-3,紧,jǐn,tight
-3,紧急,jǐnjí,urgent
-3,紧张,jǐnzhāng,nervous
-3,进步,jìnbù,progress
-3,进一步,jìnyībù,to go a step further
-3,进展,jìnzhǎn,to make headway
-3,近期,jìnqī,near in time
-3,京剧,jīngjù,Beijing opera
-3,经济,jīngjì,economy
-3,经历,jīnglì,experience
-3,经验,jīngyàn,to experience
-3,经营,jīngyíng,to engage in (business etc)
-3,精彩,jīngcǎi,brilliant
-3,精神,jīngshén,spirit
-3,景色,jǐngsè,scenery
-3,警察,jǐngchá,police
-3,静,jìng,still
-3,久,jiǔ,(long) time
-3,旧,jiù,old
-3,救,jiù,to save
-3,就是,jiùshì,exactly; precisely
-3,就业,jiùyè,looking for employment
-3,举办,jǔbàn,to conduct
-3,具体,jùtǐ,concrete
-3,具有,jùyǒu,to have; to possess
-3,剧场,jùchǎng,theater
-3,据说,jùshuō,it is said that
-3,决定,juédìng,to decide (to do something)
-3,决赛,juésài,finals (of a competition)
-3,决心,juéxīn,determination
-3,绝对,juéduì,absolute
-3,咖啡,kāfēi,coffee
-3,开发,kāifā,to exploit (a resource)
-3,开放,kāifàng,to bloom
-3,开始,kāishǐ,to begin
-3,开业,kāiyè,to open a business
-3,开展,kāizhǎn,(begin to) develop
-3,看起来,kàn qǐlái,seemingly; apparently; looks as if; appears to be; gives the impression that; seems on the face of it to be
-3,看上去,kàn shàngqù,it would appear
-3,考验,kǎoyàn,to test
-3,科技,kējì,science and technology
-3,可靠,kěkào,reliable
-3,可乐,kělè,amusing
-3,克服,kèfú,(try to) overcome (hardships etc)
-3,客观,kèguān,objective
-3,课程,kèchéng,course
-3,空,kōng,empty
+3,东,dōng,East
+3,冬,dōng,winter
+3,动物,dòngwù,animal
+3,短,duǎn,"short (in length, duration, or height); lack"
+3,段,duàn,paragraph; segment; section
+3,锻炼,duànliàn,to exercise; work out; toughen
+3,多么,duōme,"how (wonderful, etc.); what (a great idea)"
+3,饿,è,hungry
+3,耳朵,ěrduo,ear
+3,发,"fā, fà",send out; to issue; to show (one's feelings)
+3,发烧,fāshāo,have a fever
+3,发现,fāxiàn,discover; to find
+3,方便,fāngbiàn,convenient
+3,放,fàng,put; to place; to release
+3,放心,fàngxīn,relax; feel relieved; rest assured
+3,分,"fēn, fèn",divide; part; minute
+3,附近,fùjìn,(in the) vicinity; nearby; neighboring
+3,复习,fùxí,revise; to review
+3,干净,gānjìng,clean; neat and tidy
+3,感冒,gǎnmào,catch cold; (common) cold
+3,感兴趣,gǎn xìngqù,be interested in
+3,刚才,gāngcái,just now; a moment ago
+3,个子,gèzi,height; stature; build
+3,根据,gēnjù,according to; based on; basis
+3,跟,gēn,to follow; go with; heel
+3,更,gèng,more; even more
+3,公斤,gōngjīn,kilogram
+3,公园,gōngyuán,public park
+3,故事,gùshi,story; tale
+3,刮风,guāfēng,windy; to blow (wind)
+3,关,guān,to close; shut; concern
+3,关系,guānxi,relation; to concern
+3,关心,guānxīn,concerned about/with
+3,关于,guānyú,about; regarding; concerning
+3,国家,guójiā,country; state; nation
+3,过,guò,to pass; to cross; go over
+3,过去,guòqù,in the past; formerly
+3,还是,háishi,or; still; nevertheless
+3,害怕,hàipà,afraid of; to fear
+3,黑板,hēibǎn,blackboard
+3,后来,hòulái,afterwards; after; later
+3,护照,hùzhào,passport
+3,花,huā,flower; blossom; spend money
+3,画,huà,draw; picture; painting
+3,坏,huài,bad; broken
+3,欢迎,huānyíng,to welcome; greet
+3,还,hái,still; yet; in addition
+3,环境,huánjìng,environment; surroundings
+3,换,huàn,change; to exchange; to barter
+3,黄河,huánghé,Yellow River
+3,回答,huídá,to reply; to answer
+3,会议,huìyì,meeting; conference
+3,或者,huòzhě,or; possible; maybe
+3,几乎,jīhū,almost
+3,机会,jīhuì,opportunity; chance; occasion
+3,极,jí,an extreme; pole; very
+3,记得,jìde,remember
+3,季节,jìjié,season; time; period
+3,检查,jiǎnchá,to check; examine; inspect
+3,简单,jiǎndān,simple; not complicated
+3,见面,jiànmiàn,meet/see somebody; meeting
+3,健康,jiànkāng,health; healthy
+3,讲,jiǎng,to talk; to lecture; to explain
+3,教,"jiāo, jiào",teach; instruct; religion
+3,角,"jiǎo, jué",horn; angle; unit of money (1/10 yuan)
+3,脚,jiǎo,foot (body part)
+3,接,jiē,connect; to meet; to pick up (somebody)
+3,街道,jiēdào,street
+3,节目,jiémù,program; item (on a program)
+3,节日,jiérì,holiday; festival
+3,结婚,jiéhūn,get married
+3,结束,jiéshù,to end; to finish; conclude
+3,解决,jiějué,settle (a dispute); resolve; solve
+3,借,jiè,lend; borrow; excuse
+3,经常,jīngcháng,often; frequently; daily
+3,经过,jīngguò,to pass; go through; as a result of
+3,经理,jīnglǐ,manager; director
+3,久,jiǔ,long (time)
+3,旧,jiù,old; past; used
+3,句子,jùzi,sentence
+3,决定,juédìng,decide; resolve
+3,可爱,kě'ài,cute; lovely
+3,渴,kě,thirsty
+3,刻,kè,quarter (hour); (mw for short time intervals); carve
+3,客人,kèrén,guest; customer
 3,空调,kōngtiáo,air conditioning
-3,恐怕,kǒngpà,fear
-3,空儿,kòngr,spare time
-3,裤子,kùzi,trousers
-3,快速,kuàisù,fast; high-speed; rapid
-3,困,kùn,sleepy
-3,困难,kùnnan,difficult
-3,浪费,làngfèi,to waste
-3,老百姓,lǎobǎixìng,ordinary people
-3,老板,lǎobǎn,boss
-3,老太太,lǎotàitai,elderly lady (respectful)
-3,老头儿,lǎotóur,see 老頭子|老头子[lao3 tou2 zi5]
-3,乐,lè,surname Le
-3,乐观,lèguān,optimistic
-3,类,lèi,kind
-3,类似,lèisì,similar
-3,离婚,líhūn,to divorce
-3,里面,lǐmiàn,variant of 裡面|里面[li3 mian4]
-3,理发,lǐfà,a barber
-3,理解,lǐjiě,to comprehend
-3,理论,lǐlùn,theory
-3,理由,lǐyóu,reason
-3,力,lì,surname Li
-3,力量,lìliàng,power
-3,立刻,lìkè,forthwith
-3,利用,lìyòng,exploit
-3,连,lián,to link
-3,连忙,liánmáng,promptly
-3,连续,liánxù,continuous
-3,连续剧,liánxùjù,serialized drama
-3,联合,liánhé,to combine
-3,联合国,Liánhéguó,United Nations
-3,联系,liánxì,connection
-3,凉水,liángshuǐ,cool water
-3,了,liǎo,(modal particle intensifying preceding clause)
-3,领,lǐng,neck
-3,领导,lǐngdǎo,lead
-3,领先,lǐngxiān,to lead
-3,另外,lìngwài,additional
-3,另一方面,lìng yīfāngmiàn,on the other hand
-3,留学,liúxué,to study abroad
-3,龙,lóng,dragon
-3,录,lù,to carve wood
-3,录音,lùyīn,to record (sound)
-3,路线,lùxiàn,itinerary
-3,旅馆,lǚguǎn,hotel
-3,旅行社,lǚxíngshè,travel agency
-3,绿茶,lǜchá,green tea
-3,乱,luàn,in confusion or disorder
-3,落后,luòhòu,to fall behind
-3,麻烦,máfan,inconvenient
+3,口,kǒu,mouth
+3,哭,kū,cry; weep
+3,裤子,kùzi,pants; trousers
+3,筷子,kuàizi,chopsticks
+3,蓝,lán,blue
+3,老,lǎo,old; aged; tough
+3,离开,líkāi,leave; depart
+3,礼物,lǐwù,gift; present
+3,历史,lìshǐ,history
+3,脸,liǎn,face
+3,练习,liànxí,practice; exercise
+3,辆,liàng,(mw for vehicles)
+3,聊天,liáotiān,to chat
+3,了解,liǎojiě,comprehend; understand; know
+3,邻居,línjū,neighbor
+3,留学,liúxué,study abroad
+3,楼,lóu,story; floor; (multi-story) building
+3,绿,lǜ,green
 3,马,mǎ,horse
-3,满足,mǎnzú,to satisfy
-3,慢慢,mànmàn,slowly; gradually
-3,毛,máo,hair
-3,毛病,máobìng,fault
-3,没用,méiyòng,useless
-3,媒体,méitǐ,media
-3,每,měi,each
-3,美,měi,(bound form) the Americas (abbr. for 美洲[Mei3 zhou1])
-3,美好,měihǎo,beautiful
-3,美丽,měilì,beautiful
-3,美食,měishí,culinary delicacy
-3,美术,měishù,art
-3,美元,měiyuán,American dollar; US dollar
-3,迷,mí,to bewilder
-3,米,mǐ,rice
-3,面对,miànduì,to confront
-3,面积,miànjī,area (of a floor
-3,民间,mínjiān,among the people
-3,民族,mínzú,nationality
-3,明确,míngquè,clear-cut
-3,明显,míngxiǎn,clear
-3,命运,mìngyùn,fate
-3,某,mǒu,some
-3,母亲,mǔqīn,mother
-3,木头,mùtou,slow-witted
-3,目标,mùbiāo,target
-3,目前,mùqián,at the present time
-3,奶茶,nǎichá,milk tea
-3,男子,nánzǐ,a man; a male
-3,南部,nánbù,southern part
-3,难道,nándào,don't tell me ...
-3,难度,nándù,degree of difficulty
-3,内,nèi,inside
-3,内容,nèiróng,content
-3,内心,nèixīn,heart; innermost being
-3,能不能,néng bu néng,(add English gloss)
-3,能力,nénglì,capability
-3,年初,niánchū,beginning of the year
-3,年代,niándài,a decade of a century (e.g. the Sixties)
-3,年底,niándǐ,the end of the year
-3,年纪,niánjì,age
-3,念,niàn,to read
-3,牛,niú,surname Niu
-3,农村,nóngcūn,rural area
-3,农民,nóngmín,peasant
-3,农业,nóngyè,agriculture
-3,女子,nǚzǐ,woman
-3,暖和,nuǎnhuo,warm
-3,怕,pà,surname Pa
-3,拍,pāi,to pat
-3,排,pái,to arrange in order; to line up
-3,排名,páimíng,"to rank (1st, 2nd etc)"
-3,牌子,páizi,sign
-3,派,pài,clique
-3,判断,pànduàn,to decide
-3,胖,pàng,fat
-3,跑步,pǎobù,to walk quickly
-3,配,pèi,to join
-3,配合,pèihé,matching
-3,批评,pīpíng,to criticize
-3,批准,pīzhǔn,to approve
-3,皮,pí,surname Pi
-3,皮包,píbāo,handbag
+3,马上,mǎshàng,at once; immediately; right away
+3,满意,mǎnyì,satisfied; pleased
+3,帽子,màozi,hat; cap
+3,米,mǐ,rice; meter
+3,面包,miànbāo,bread
+3,明白,míngbai,clear; obvious; understand
+3,拿,ná,carry in your hand; seize; to catch
+3,奶奶,nǎinai,grandma; (informal) paternal grandmother
+3,南,nán,South
+3,难,nán,difficult
+3,难过,nánguò,be grieved; be sad; have a hard time
+3,年级,niánjí,grade; year (in school)
+3,年轻,niánqīng,young
+3,鸟,niǎo,bird
+3,努力,nǔlì,to work hard; to strive
+3,爬山,páshān,mountain climbing
+3,盘子,pánzi,plate; dish; tray
+3,胖,pàng,fat; plump
+3,皮鞋,píxié,leather shoes
 3,啤酒,píjiǔ,beer
-3,票价,piàojià,ticket price; fare; admission fee
-3,评价,píngjià,to evaluate
-3,苹果,píngguǒ,apple
-3,破,pò,broken
-3,破坏,pòhuài,destruction
-3,普遍,pǔbiàn,universal
-3,普及,pǔjí,popular
-3,期,qī,variant of 期[qi1]
-3,齐,qí,(name of states and dynasties at several different periods)
-3,其次,qícì,next
-3,其实,qíshí,actually
-3,奇怪,qíguài,strange
-3,气候,qìhòu,climate
-3,千万,qiānwàn,ten million
-3,前后,qiánhòu,around
-3,前进,qiánjìn,to go forward
-3,前面,qiánmiàn,ahead
-3,前往,qiánwǎng,to leave for; to proceed towards; to go to
-3,强,qiáng,surname Qiang
-3,强大,qiángdà,big and strong; formidable; powerful
-3,强调,qiángdiào,to emphasize (a statement)
-3,强烈,qiángliè,intense
-3,桥,qiáo,bridge
-3,巧,qiǎo,opportunely
-3,亲,qīn,parent
-3,亲切,qīnqiè,amiable
-3,亲人,qīnrén,one's close relatives
-3,亲自,qīnzì,personally
-3,情感,qínggǎn,feeling
-3,情况,qíngkuàng,circumstances
-3,请教,qǐngjiào,to ask for guidance
-3,庆祝,qìngzhù,to celebrate
-3,球迷,qiúmí,soccer fan
-3,区,qū,surname Ou
-3,区别,qūbié,difference
-3,取消,qǔxiāo,to cancel
-3,去世,qùshì,to pass away
-3,全场,quánchǎng,everyone present
-3,全面,quánmiàn,all-around
-3,全球,quánqiú,the whole world
-3,缺,quē,deficiency
-3,缺点,quēdiǎn,weak point
-3,缺少,quēshǎo,lack
-3,确保,quèbǎo,to ensure
-3,确定,quèdìng,definite
-3,确实,quèshí,indeed
+3,瓶子,píngzi,bottle
+3,其实,qíshí,actually; in fact
+3,其他,qítā,other; else
+3,奇怪,qíguài,strange; odd
+3,骑,qí,to ride (an animal or bike); to sit astride
+3,起飞,qǐfēi,take off (in an airplane); liftoff
+3,起来,qǐlai,(beginning or continuing an action); to rise; get up (from bed)
+3,清楚,qīngchu,clear; distinct; be clear about
+3,请假,qǐngjià,to ask for time off
+3,秋,qiū,autumn; fall; harvest time
 3,裙子,qúnzi,skirt
-3,群,qún,group
-3,热爱,rè'ài,to love ardently
-3,热烈,rèliè,warm (welcome etc)
-3,人才,réncái,a person's talent
-3,人工,réngōng,artificial
-3,人类,rénlèi,humanity
-3,人民,rénmín,the people
-3,人民币,rénmínbì,Renminbi (RMB)
-3,人群,rénqún,crowd
-3,人生,rénshēng,life (one's time on earth)
-3,人员,rényuán,staff
-3,认出,rènchū,recognition
-3,认得,rènde,to recognize
-3,认可,rènkě,to approve
-3,任,rèn,surname Ren
-3,任何,rènhé,any
-3,任务,rènwu,mission
-3,仍,réng,still; yet
-3,仍然,réngrán,still
-3,日常,rìcháng,daily
-3,容易,róngyì,easy
-3,如何,rúhé,how
-3,散步,sànbù,to take a walk
-3,沙发,shāfā,sofa
-3,沙子,shāzi,sand
-3,伤,shāng,to injure
-3,伤心,shāngxīn,to grieve
-3,商品,shāngpǐn,good
-3,商业,shāngyè,business
-3,上来,shànglái,to come up
-3,上面,shàngmiàn,on top of
-3,上去,shàngqù,to go up
-3,上升,shàngshēng,to rise
-3,上衣,shàngyī,jacket
-3,设备,shèbèi,equipment
-3,设计,shèjì,plan
-3,设立,shèlì,to set up
-3,社会,shèhuì,society
-3,身份证,shēnfènzhèng,identity card
-3,深,shēn,close
-3,深刻,shēnkè,profound
-3,深入,shēnrù,to penetrate deeply
-3,升,shēng,variant of 升[shēng]
-3,生,shēng,to grow; to give birth; to produce; to be born
-3,生产,shēngchǎn,childbirth
-3,生存,shēngcún,to exist
-3,生动,shēngdòng,vivid
-3,生命,shēngmìng,life
-3,生意,shēngyi,life force
-3,生长,shēngzhǎng,to grow
-3,声明,shēngmíng,statement
-3,胜,shèng,victory
-3,胜利,shènglì,victory
-3,失去,shīqù,to lose
-3,石头,shítou,stone
-3,石油,shíyóu,oil
-3,时,shí,old variant of 時|时[shi2]
-3,时代,shídài,age
-3,时刻,shíkè,moment
-3,实际上,shíjìshàng,in fact
-3,实力,shílì,strength
-3,实行,shíxíng,to implement
-3,实验,shíyàn,experiment
-3,实验室,shíyànshì,laboratory
-3,食品,shípǐn,foodstuff
-3,使,shǐ,to make
-3,始终,shǐzhōng,from beginning to end
-3,世纪,shìjì,century
+3,然后,ránhòu,then; afterwards
+3,热情,rèqíng,cordial; warm; enthusiastic
+3,认为,rènwéi,believe; think that
+3,认真,rènzhēn,serious; earnest; take seriously
+3,容易,róngyì,easy; likely; liable (to)
+3,如果,rúguǒ,if; in the event that
+3,伞,sǎn,umbrella; parasol
+3,上网,shàngwǎng,to surf the web; to go online
+3,生气,shēngqì,angry; mad
+3,声音,shēngyīn,sound; voice
 3,世界,shìjiè,world
-3,世界杯,shìjièbēi,World Cup
-3,市场,shìchǎng,marketplace
-3,事故,shìgù,accident
-3,事件,shìjiàn,event
-3,事实,shìshí,fact
-3,事实上,shìshíshang,in fact
-3,事业,shìyè,undertaking
-3,试题,shìtí,exam question
-3,试验,shìyàn,experiment
-3,适合,shìhé,to fit
-3,适应,shìyìng,to adapt
-3,适用,shìyòng,to be applicable
-3,室,shì,surname Shi
-3,收费,shōufèi,to charge a fee
-3,收看,shōukàn,to watch (a TV program)
-3,收听,shōutīng,to listen to (a radio broadcast)
-3,收音机,shōuyīnjī,radio
-3,手续,shǒuxù,procedure
-3,手指,shǒuzhǐ,finger
-3,首都,shǒudū,capital (city)
-3,首先,shǒuxiān,first (of all)
-3,受,shòu,to receive
-3,受伤,shòushāng,to sustain injuries
-3,书架,shūjià,bookshelf
-3,输,shū,to lose
-3,输入,shūrù,to import
-3,熟人,shúrén,acquaintance
-3,属,shǔ,category
-3,属于,shǔyú,to be classified as
-3,束,shù,to bind
-3,数量,shùliàng,amount
-3,双,shuāng,two
-3,双方,shuāngfāng,bilateral
-3,思想,sīxiǎng,thought
-3,死,sǐ,to die
-3,速度,sùdù,speed
-3,随,suí,surname Sui
-3,所,suǒ,actually
-3,所长,suǒzhǎng,what one is good at; one's strong point
-3,台,tái,typhoon
-3,谈,tán,to speak
-3,谈话,tánhuà,to talk (with sb)
-3,谈判,tánpàn,to negotiate
-3,汤,tāng,soup
-3,糖,táng,sugar
-3,特色,tèsè,characteristic
-3,提前,tíqián,to shift to an earlier date
-3,提问,tíwèn,to question
-3,题目,tímù,subject
-3,体会,tǐhuì,to know from experience
-3,体现,tǐxiàn,to embody
-3,体验,tǐyàn,to experience for oneself
-3,天空,tiānkōng,sky
+3,试,shì,to try; to test; examination
+3,瘦,shòu,thin; tight; lean
+3,叔叔,shūshu,(informal) father's younger brother; uncle
+3,舒服,shūfu,comfortable; feeling well
+3,树,shù,tree
+3,数学,shùxué,mathematics
+3,刷牙,shuāyá,brush one's teeth
+3,双,shuāng,two; double; (mw for pairs)
+3,水平,shuǐpíng,level; standard; horizontal
+3,司机,sījī,driver; chauffeur
+3,太阳,tàiyáng,the sun
+3,特别,tèbié,special; especially; particular
+3,疼,téng,ache; sore; (it) hurts
+3,提高,tígāo,to raise; heighten; improve
+3,体育,tǐyù,physical training; sports
 3,甜,tián,sweet
-3,调整,tiáozhěng,to adjust
-3,跳,tiào,to jump
-3,跳高,tiàogāo,(athletics) high jump
-3,跳舞,tiàowǔ,to dance
-3,跳远,tiàoyuǎn,long jump (athletics)
-3,铁,tiě,surname Tie
-3,铁路,tiělù,railroad
-3,听力,tīnglì,hearing
-3,听众,tīngzhòng,audience
-3,停止,tíngzhǐ,to stop
-3,通常,tōngcháng,regular
-3,通信,tōngxìn,"to correspond (by letter, email etc)"
-3,同意,tóngyì,to agree
-3,痛,tòng,ache
-3,痛苦,tòngkǔ,pain
-3,头,tóu,head
-3,头脑,tóunǎo,brains
-3,突出,tūchū,prominent
-3,突然,tūrán,sudden
-3,图,tú,diagram
-3,图画,túhuà,drawing
-3,土,tǔ,Tu (ethnic group)
-3,团,tuán,dumpling
-3,团结,tuánjié,a rally
-3,团体,tuántǐ,group
-3,推动,tuīdòng,to push (e.g. for acceptance of a plan); to promote; to give impetus to
-3,推广,tuīguǎng,to extend
-3,推进,tuījìn,to impel
-3,推开,tuīkāi,to push open (a gate etc)
-3,退,tuì,to retreat
-3,退出,tuìchū,to withdraw
-3,退休,tuìxiū,to retire
-3,外交,wàijiāo,diplomacy
-3,外面,wàimiàn,outside (also pr. [wai4 mian5] for this sense)
-3,外文,wàiwén,foreign language (written)
-3,完美,wánměi,perfect
-3,完善,wánshàn,perfect
-3,完整,wánzhěng,complete
-3,玩具,wánjù,plaything
-3,往往,wǎngwǎng,often
-3,危害,wēihài,to jeopardize
-3,危险,wēixiǎn,danger
-3,为,wéi,variant of 為|为
-3,围,wéi,surname Wei
-3,伟大,wěidà,great
-3,卫生,wèishēng,hygienic; sanitary
-3,卫生间,wèishēngjiān,bathroom
-3,为了,wèile,in order to
-3,温暖,wēnnuǎn,warm
-3,文化,wénhuà,culture
-3,文件,wénjiàn,document
-3,文明,wénmíng,civilized
-3,文学,wénxué,literature
-3,文章,wénzhāng,article
-3,文字,wénzì,character
-3,握手,wòshǒu,to shake hands
-3,屋子,wūzi,house
-3,武器,wǔqì,weapon
-3,武术,wǔshù,military skill or technique (in former times)
-3,舞台,wǔtái,(lit. and fig.) stage; arena
-3,西部,xībù,western part
-3,希望,xīwàng,to wish for
-3,系,xì,to connect
-3,下来,xiàlái,to come down
-3,下面,xiàmiàn,below
-3,下去,xiàqù,to go down
-3,先进,xiānjìn,advanced (technology)
-3,显得,xiǎnde,to seem
-3,显然,xiǎnrán,clear
-3,显示,xiǎnshì,to show
-3,现场,xiànchǎng,lit. actual location
-3,现代,xiàndài,modern times
-3,现金,xiànjīn,cash
-3,现实,xiànshí,reality
-3,现象,xiànxiàng,appearance
-3,线,xiàn,variant of 線|线[xian4]
-3,相比,xiāngbǐ,to compare
-3,相当,xiāngdāng,equivalent to
-3,相关,xiāngguān,to be interrelated
-3,相互,xiānghù,each other
-3,相似,xiāngsì,to resemble
-3,香,xiāng,fragrant
+3,条,tiáo,strip; (mw for long thin objects); item
+3,同事,tóngshì,colleague; co-worker
+3,同意,tóngyì,agree; to consent; approve
+3,头发,tóufa,hair (on the head)
+3,突然,tūrán,sudden; abrupt
+3,图书馆,túshūguǎn,library
+3,腿,tuǐ,leg
+3,完成,wánchéng,to complete; accomplish; to fulfill
+3,碗,wǎn,bowl; cup
+3,万,wàn,ten thousand
+3,忘记,wàngjì,forget
+3,为,wèi,for; because of; to
+3,为了,wèile,in order to; for the sake of; for the purpose of
+3,位,wèi,position; location; (polite mw for people)
+3,文化,wénhuà,culture; civilization
+3,西,xī,West
+3,习惯,xíguàn,habit; be accustomed to; usual practice
+3,洗手间,xǐshǒujiān,toilet; lavatory; washroom
+3,洗澡,xǐzǎo,bathe; take a bath or shower; bath or shower
+3,夏,xià,summer
+3,先,xiān,first; early; before
+3,相信,xiāngxìn,believe (sb.); be convinced of
 3,香蕉,xiāngjiāo,banana
-3,消费,xiāofèi,to consume
-3,消失,xiāoshī,to disappear
-3,消息,xiāoxi,news
-3,效果,xiàoguǒ,result
-3,写作,xiězuò,writing
-3,血,xiě,blood
-3,心,xīn,heart
-3,信,xìn,letter
-3,信封,xìnfēng,envelope
-3,信任,xìnrèn,to trust
-3,行李,xíngli,luggage
-3,形成,xíngchéng,to form
-3,形式,xíngshì,form
-3,形象,xíngxiàng,image
-3,形状,xíngzhuàng,form
-3,幸福,xìngfú,happiness
-3,幸运,xìngyùn,fortunate
-3,性,xìng,nature
-3,积极性,jījíxìng,zeal
-3,性别,xìngbié,gender
-3,性格,xìnggé,nature
-3,修,xiū,to decorate
-3,修改,xiūgǎi,to amend
-3,需求,xūqiú,requirement
-3,需要,xūyào,to need
-3,宣布,xuānbù,to declare
-3,宣传,xuānchuán,to disseminate
-3,选手,xuǎnshǒu,athlete
-3,学费,xuéfèi,tuition fee
-3,训练,xùnliàn,to train
-3,压,yā,to press
-3,压力,yālì,pressure
-3,烟,yān,cigarette or pipe tobacco
-3,眼前,yǎnqián,before one's eyes
-3,演,yǎn,to perform (a play etc); to stage (a show)
-3,演唱,yǎnchàng,to sing (for an audience)
-3,演唱会,yǎnchànghuì,vocal recital or concert
-3,演出,yǎnchū,to act (in a play)
-3,演员,yǎnyuán,actor or actress
-3,羊,yáng,surname Yang
-3,阳光,yángguāng,sunshine
-3,要是,yàoshi,if
-3,衣架,yījià,clothes hanger
-3,一切,yīqiè,everything
-3,已,yǐ,already
-3,以来,yǐlái,since (a previous event)
-3,一方面,yīfāngmiàn,on the one hand
-3,艺术,yìshù,art
-3,意外,yìwài,unexpected
-3,意义,yìyì,sense
-3,因此,yīncǐ,thus
-3,银,yín,silver
-3,银牌,yínpái,silver medal
-3,印象,yìnxiàng,impression
-3,应当,yīngdāng,should; ought to
-3,迎接,yíngjiē,to meet
-3,营养,yíngyǎng,nutrition
-3,赢,yíng,to beat
-3,影视,yǐngshì,movies and television
-3,应用,yìngyòng,to use
-3,优点,yōudiǎn,merit
-3,优势,yōushì,superiority
-3,由,yóu,to follow
-3,由于,yóuyú,due to
-3,邮件,yóujiàn,mail
-3,邮票,yóupiào,(postage) stamp
-3,邮箱,yóuxiāng,mailbox
-3,游,yóu,surname You
-3,游戏,yóuxì,game
-3,游泳,yóuyǒng,swimming
-3,有的是,yǒudeshì,have plenty of
-3,有利,yǒulì,advantageous
-3,有效,yǒuxiào,effective
-3,预报,yùbào,forecast
-3,预防,yùfáng,to prevent
-3,预计,yùjì,to forecast
-3,预习,yùxí,to prepare a lesson
-3,员,yuán,(bound form) person engaged in a certain field of activity
-3,服务员,fúwùyuán,waiter
-3,员工,yuángōng,staff; personnel; employee
-3,愿望,yuànwàng,desire
-3,约,yuē,to weigh in a balance or on a scale
-3,乐队,yuèduì,band
-3,运输,yùnshū,transport
-3,杂志,zázhì,magazine
-3,早已,zǎoyǐ,for a long time; long since
-3,造,zào,to make
-3,造成,zàochéng,to bring about
-3,责任,zérèn,responsibility
-3,增加,zēngjiā,to raise
-3,增长,zēngzhǎng,to grow
-3,展开,zhǎnkāi,to unfold
-3,张,zhāng,to open up
-3,照,zhào,variant of 照[zhao4]
-3,者,zhě,(after a verb or adjective) one who (is) ...
-3,志愿者,zhìyuànzhě,volunteer
-3,真实,zhēnshí,true
-3,争,zhēng,to strive for
-3,争取,zhēngqǔ,to fight for
-3,整,zhěng,(bound form) whole; complete; entire; (before a measure word) whole; (before or after number + measure word) exactly
-3,整个,zhěnggè,whole
-3,整理,zhěnglǐ,to arrange
-3,整齐,zhěngqí,orderly
-3,整体,zhěngtǐ,whole entity
-3,整天,zhěngtiān,all day long
-3,整整,zhěngzhěng,whole
-3,正,zhèng,just (right)
-3,正式,zhèngshì,formal
-3,证,zhèng,to admonish
-3,证件,zhèngjiàn,paperwork
-3,证据,zhèngjù,evidence
-3,证明,zhèngmíng,proof
-3,支,zhī,to support
-3,支持,zhīchí,to be in favor of
-3,支付,zhīfù,to pay (money)
-3,只,zhī,classifier for birds and certain animals
-3,直,zhí,straight
-3,直播,zhíbō,live broadcast (not recorded)
-3,直到,zhídào,until
-3,值,zhí,value
-3,值得,zhídé,to be worth
-3,职工,zhígōng,employee; staff member; worker
-3,职业,zhíyè,occupation
-3,只好,zhǐhǎo,without any better option
-3,只是,zhǐshì,merely; only; just; nothing but
-3,只有,zhǐyǒu,only have ...; there is only ...
-3,指,zhǐ,finger
-3,指出,zhǐchū,to indicate
-3,指导,zhǐdǎo,to guide
-3,至今,zhìjīn,so far
-3,至少,zhìshǎo,at least
-3,志愿,zhìyuàn,aspiration
-3,制定,zhìdìng,to draw up
-3,制度,zhìdù,system (e.g. political
-3,制造,zhìzào,to manufacture
-3,制作,zhìzuò,to make
-3,中部,zhōngbù,middle part; central section; central region
-3,中华民族,Zhōnghuá Mínzú,the Chinese nation
-3,终于,zhōngyú,at last
-3,钟,zhōng,clock
-3,种,zhǒng,abbr. for 物種|物种
-3,种子,zhǒngzi,seed
-3,重大,zhòngdà,great
-3,周围,zhōuwéi,surroundings
-3,猪,zhū,hog
-3,主持,zhǔchí,to take charge of
-3,主动,zhǔdòng,to take the initiative
-3,主任,zhǔrèn,director
-3,主意,zhǔyi,plan
-3,主张,zhǔzhāng,to advocate
-3,注意,zhùyì,to take note of
-3,祝,zhù,to wish
-3,抓,zhuā,to grab
-3,抓住,zhuāzhù,to grab hold of; to capture
-3,专家,zhuānjiā,expert
-3,专门,zhuānmén,specialist
-3,专题,zhuāntí,special topic
-3,专业,zhuānyè,specialty
-3,转,zhuǎn,see 轉文|转文[zhuai3 wen2]
-3,转变,zhuǎnbiàn,to change
-3,状况,zhuàngkuàng,condition
-3,状态,zhuàngtài,state of affairs
-3,追,zhuī,to sculpt
-3,准,zhǔn,to allow
-3,资格,zīgé,qualifications
-3,资金,zījīn,funds
-3,子女,zǐnǚ,children; sons and daughters
-3,自从,zìcóng,since (a time)
-3,自动,zìdòng,automatic
-3,自觉,zìjué,conscious
-3,自然,zìrán,nature
-3,自身,zìshēn,itself
-3,自主,zìzhǔ,independent
-3,总,zǒng,(bound form) general; overall
-3,总结,zǒngjié,to sum up
-3,总是,zǒngshì,always
-3,足够,zúgòu,enough; sufficient
-3,足球,zúqiú,soccer; football
-3,组合,zǔhé,to assemble
-3,左右,zuǒyòu,left and right
-3,作品,zuòpǐn,work (of art)
-3,作者,zuòzhě,author
-3,做客,zuòkè,to be a guest or visitor
+3,向,xiàng,direction; towards; to turn
+3,像,xiàng,be like; resemble; appearance
+3,小心,xiǎoxīn,be careful
+3,校长,xiàozhǎng,"principal (of school, college or university); president; headmaster"
+3,新闻,xīnwén,news
+3,新鲜,xīnxiān,"fresh (experience, food, etc.); new; novel"
+3,信用卡,xìnyòngkǎ,credit card
+3,行李箱,xínglǐxiāng,trunk; suitcase
+3,熊猫,xióngmāo,panda
+3,需要,xūyào,to need; to want; to demand
+3,选择,xuǎnzé,select; to pick; choose
+3,要求,yāoqiú,to request; to demand; requirement
+3,爷爷,yéye,(informal) father's father; paternal grandfather
+3,一般,yìbān,general; ordinary; common
+3,一边,yìbiān,one side; on the one hand; at the same time
+3,一定,yídìng,surely; certainly; necessarily
+3,一共,yígòng,altogether; in total
+3,一会儿,yíhuìr,a while; a moment
+3,一样,yíyàng,the same; alike; equal to
+3,一直,yìzhí,always; all along; straight (in a straight line)
+3,以前,yǐqián,before; formerly; previous
+3,音乐,yīnyuè,music
+3,银行,yínháng,bank
+3,饮料,yǐnliào,beverage; drink
+3,应该,yīnggāi,should; ought to; must
+3,影响,yǐngxiǎng,influence; affect; effect
+3,用,yòng,to use
+3,游戏,yóuxì,game; play; recreation
+3,有名,yǒumíng,famous; well-known
+3,又,yòu,(once) again; also; both
+3,遇到,yùdào,to meet; run into; come across
+3,元,yuán,Chinese monetary unit; dollar; first
+3,愿意,yuànyì,be willing; want to; be ready
+3,月亮,yuèliang,the moon
+3,越,yuè,even more; the more; exceed
+3,站,zhàn,stand; a station; be on one's feet
+3,张,zhāng,(mw for flat objects); to spread out; (common surname)
+3,长,"cháng, zhǎng",long; length; grow
+3,着急,zháojí,to worry; feel anxious
+3,照顾,zhàogu,take care of; look after; give consideration
+3,照片,zhàopiàn,picture; photograph
+3,照相机,zhàoxiàngjī,camera
+3,只,"zhī, zhǐ",but; only; merely
+3,只有,zhǐyǒu,only
+3,才,cái,ability; talent; just now
+3,中间,zhōngjiān,center; middle; between
+3,中文,Zhōngwén,Chinese (language)
+3,终于,zhōngyú,at last; in the end; finally
+3,种,zhǒng,type; breed; race
+3,重要,zhòngyào,important; significant; major
+3,周末,zhōumò,weekend
+3,主要,zhǔyào,main; principal; major
+3,注意,zhùyì,pay attention to; take notice of; be careful
+3,自己,zìjǐ,oneself; self
+3,自行车,zìxíngchē,bike; bicycle
+3,总是,zǒngshì,always; eventually
+3,嘴,zuǐ,mouth
+3,最后,zuìhòu,last; final; ultimately
+3,最近,zuìjìn,recently; lately; these days
+3,作业,zuòyè,school assignment; homework; task

@@ -4,13 +4,13 @@ const REVIEW_USER_STORAGE_KEY = 'mandarin-review-user-id'
 
 function getReviewUserId() {
   if (typeof window === 'undefined') return 'legacy'
-  const existing = window.sessionStorage.getItem(REVIEW_USER_STORAGE_KEY)
+  const existing = window.localStorage.getItem(REVIEW_USER_STORAGE_KEY)
   if (existing) return existing
   const next =
     typeof window.crypto?.randomUUID === 'function'
       ? window.crypto.randomUUID()
       : `review-${Date.now()}-${Math.random().toString(16).slice(2)}`
-  window.sessionStorage.setItem(REVIEW_USER_STORAGE_KEY, next)
+  window.localStorage.setItem(REVIEW_USER_STORAGE_KEY, next)
   return next
 }
 
@@ -91,6 +91,7 @@ export async function submitAnswer(
 export interface ReviewItem {
   review_id: number
   vocab_id: number
+  hsk_level: number
   hanzi: string
   pinyin: string
   meaning: string

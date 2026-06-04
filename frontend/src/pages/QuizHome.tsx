@@ -4,7 +4,6 @@ import { ReviewMistakesSection } from '../components/ReviewMistakesSection'
 import { fetchReview } from '../api'
 
 const levels = [1, 2, 3, 4, 5, 6] as const
-const HSK_READY = 3
 
 export function QuizHome() {
   const [reviewCount, setReviewCount] = useState<number | null>(null)
@@ -13,7 +12,7 @@ export function QuizHome() {
     let cancelled = false
     ;(async () => {
       try {
-        const data = await fetchReview(HSK_READY)
+        const data = await fetchReview()
         if (!cancelled) setReviewCount(data.items.length)
       } catch {
         if (!cancelled) setReviewCount(0)
@@ -35,28 +34,20 @@ export function QuizHome() {
 
       <h2 className="section-title">HSK level</h2>
       <div className="level-grid">
-        {levels.map((lv) => {
-          const ready = lv === HSK_READY
-          return ready ? (
-            <Link
-              key={lv}
-              to="/quiz"
-              state={{ mode: 'all' as const, hskLevel: lv }}
-              className="level-card level-card--active"
-            >
-              <span className="level-num">HSK {lv}</span>
-              <span className="level-note">Start quiz</span>
-            </Link>
-          ) : (
-            <div key={lv} className="level-card level-card--disabled" aria-disabled>
-              <span className="level-num">HSK {lv}</span>
-              <span className="level-note">Coming soon</span>
-            </div>
-          )
-        })}
+        {levels.map((lv) => (
+          <Link
+            key={lv}
+            to="/quiz"
+            state={{ mode: 'all' as const, hskLevel: lv }}
+            className="level-card level-card--active"
+          >
+            <span className="level-num">HSK {lv}</span>
+            <span className="level-note">Start quiz</span>
+          </Link>
+        ))}
       </div>
 
-      <ReviewMistakesSection count={reviewCount} hskLevel={HSK_READY} />
+      <ReviewMistakesSection count={reviewCount} />
     </div>
   )
 }

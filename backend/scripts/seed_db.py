@@ -32,9 +32,8 @@ def seed_from_csv(csv_path: Path, default_hsk_level: Optional[int] = None) -> in
     if not csv_path.is_file():
         raise FileNotFoundError(f"Seed file not found: {csv_path}")
 
-    conn = connect()
-    init_schema(conn)
-    count = 0
+    rows_to_upsert: list[tuple[int, str, str, str]] = []
+    level_in_file: int | None = None
     with csv_path.open(encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -45,20 +44,32 @@ def seed_from_csv(csv_path: Path, default_hsk_level: Optional[int] = None) -> in
             meaning = (row.get("meaning") or "").strip()
             if hsk_level is None or not hanzi or not pinyin or not meaning:
                 continue
-            conn.execute(
-                """
-                INSERT INTO vocabulary (hsk_level, hanzi, pinyin, meaning)
-                VALUES (?, ?, ?, ?)
-                ON CONFLICT(hsk_level, hanzi) DO UPDATE SET
-                    pinyin = excluded.pinyin,
-                    meaning = excluded.meaning
-                """,
-                (hsk_level, hanzi, pinyin, meaning),
-            )
-            count += 1
+            if level_in_file is None:
+                level_in_file = hsk_level
+            elif level_in_file != hsk_level:
+                raise ValueError(f"Mixed HSK levels found in {csv_path}")
+            rows_to_upsert.append((hsk_level, hanzi, pinyin, meaning))
+
+    if not rows_to_upsert or level_in_file is None:
+        return 0
+
+    conn = connect()
+    init_schema(conn)
+    conn.execute("DELETE FROM vocabulary WHERE hsk_level = ?", (level_in_file,))
+    for hsk_level, hanzi, pinyin, meaning in rows_to_upsert:
+        conn.execute(
+            """
+            INSERT INTO vocabulary (hsk_level, hanzi, pinyin, meaning)
+            VALUES (?, ?, ?, ?)
+            ON CONFLICT(hsk_level, hanzi) DO UPDATE SET
+                pinyin = excluded.pinyin,
+                meaning = excluded.meaning
+            """,
+            (hsk_level, hanzi, pinyin, meaning),
+        )
     conn.commit()
     conn.close()
-    return count
+    return len(rows_to_upsert)
 
 
 def main() -> None:
