@@ -113,3 +113,72 @@ export async function clearReview(hskLevel?: number) {
   })
   return parseJson<{ deleted: number }>(res)
 }
+
+// ── System Design (DDIA) API ────────────────────────────────────────────────
+
+export interface SDTopic {
+  id: number
+  slug: string
+  title: string
+  description: string
+  chapter_num: number
+  part_num: number
+  position_order: number
+  prerequisites: string
+  score: number
+  total: number
+  completed: boolean
+  last_attempted: string | null
+  question_count: number
+}
+
+export interface SDQuestion {
+  question_index: number
+  prompt: string
+  choices: string[]
+}
+
+export async function fetchSDTopics() {
+  const res = await fetch(`${base}/api/sd/topics`, { headers: withReviewUser() })
+  return parseJson<{ topics: SDTopic[] }>(res)
+}
+
+export async function startSDQuiz(topicSlug: string) {
+  const res = await fetch(`${base}/api/sd/quiz/start`, {
+    method: 'POST',
+    headers: withReviewUser({ 'Content-Type': 'application/json' }),
+    body: JSON.stringify({ topic_slug: topicSlug }),
+  })
+  return parseJson<{
+    session_id: string
+    topic_slug: string
+    topic_title: string
+    questions: SDQuestion[]
+  }>(res)
+}
+
+export async function submitSDAnswer(
+  sessionId: string,
+  questionIndex: number,
+  selectedIndex: number,
+) {
+  const res = await fetch(`${base}/api/sd/quiz/answer`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      session_id: sessionId,
+      question_index: questionIndex,
+      selected_index: selectedIndex,
+    }),
+  })
+  return parseJson<{ correct: boolean; correct_index: number; explanation: string }>(res)
+}
+
+export async function completeSDQuiz(sessionId: string, score: number, total: number) {
+  const res = await fetch(`${base}/api/sd/quiz/complete`, {
+    method: 'POST',
+    headers: withReviewUser({ 'Content-Type': 'application/json' }),
+    body: JSON.stringify({ session_id: sessionId, score, total }),
+  })
+  return parseJson<{ ok: boolean }>(res)
+}

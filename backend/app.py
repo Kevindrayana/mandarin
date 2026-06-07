@@ -22,6 +22,12 @@ from quiz_service import (
     save_session,
     strip_secrets,
 )
+from sd_service import (
+    get_topics_with_progress,
+    grade_sd_answer,
+    save_sd_progress,
+    start_sd_quiz,
+)
 
 
 def _review_user_id() -> str:
@@ -99,6 +105,55 @@ def create_app() -> Flask:
         hsk = request.args.get("hsk_level", type=int)
         n = clear_review(hsk, _review_user_id())
         return jsonify({"deleted": n})
+
+    # ── System Design (DDIA) routes ──────────────────────────────────────────
+
+    @app.route("/api/sd/topics", methods=["GET"])
+    def sd_topics():
+        topics = get_topics_with_progress(_review_user_id())
+        return jsonify({"topics": topics})
+
+    @app.route("/api/sd/quiz/start", methods=["POST"])
+    def sd_quiz_start():
+        body = request.get_json(silent=True) or {}
+        slug = (body.get("topic_slug") or "").strip()
+        if not slug:
+            return jsonify({"error": "topic_slug required"}), 400
+        data, err = start_sd_quiz(slug, _review_user_id())
+        if err:
+            return jsonify({"error": err}), 400 if err == "Topic not found" else 404
+        return jsonify(data)
+
+    @app.route("/api/sd/quiz/answer", methods=["POST"])
+    def sd_quiz_answer():
+        body = request.get_json(silent=True) or {}
+        session_id = body.get("session_id")
+        question_index = body.get("question_index")
+        selected_index = body.get("selected_index")
+        if session_id is None or question_index is None or selected_index is None:
+            return jsonify({"error": "session_id, question_index, selected_index required"}), 400
+        try:
+            qi = int(question_index)
+            si = int(selected_index)
+        except (TypeError, ValueError):
+            return jsonify({"error": "invalid indices"}), 400
+        correct, correct_index, explanation, err = grade_sd_answer(session_id, qi, si)
+        if err == "invalid_or_expired_session":
+            return jsonify({"error": err}), 410
+        if err == "bad_question_index":
+            return jsonify({"error": err}), 400
+        return jsonify({"correct": correct, "correct_index": correct_index, "explanation": explanation})
+
+    @app.route("/api/sd/quiz/complete", methods=["POST"])
+    def sd_quiz_complete():
+        body = request.get_json(silent=True) or {}
+        session_id = body.get("session_id")
+        score = body.get("score")
+        total = body.get("total")
+        if session_id is None or score is None or total is None:
+            return jsonify({"error": "session_id, score, total required"}), 400
+        save_sd_progress(session_id, int(score), int(total), _review_user_id())
+        return jsonify({"ok": True})
 
     conn = connect()
     init_schema(conn)

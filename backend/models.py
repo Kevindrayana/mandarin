@@ -86,6 +86,42 @@ def init_schema(conn: sqlite3.Connection) -> None:
             created_at TEXT NOT NULL DEFAULT (datetime('now')),
             expires_at TEXT NOT NULL
         );
+
+        CREATE TABLE IF NOT EXISTS sd_topics (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            slug TEXT UNIQUE NOT NULL,
+            title TEXT NOT NULL,
+            description TEXT NOT NULL,
+            chapter_num INTEGER NOT NULL,
+            part_num INTEGER NOT NULL,
+            position_order INTEGER NOT NULL,
+            prerequisites TEXT DEFAULT ''
+        );
+
+        CREATE TABLE IF NOT EXISTS sd_questions (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            topic_id INTEGER NOT NULL REFERENCES sd_topics(id) ON DELETE CASCADE,
+            prompt TEXT NOT NULL,
+            explanation TEXT NOT NULL DEFAULT ''
+        );
+
+        CREATE TABLE IF NOT EXISTS sd_choices (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            question_id INTEGER NOT NULL REFERENCES sd_questions(id) ON DELETE CASCADE,
+            text TEXT NOT NULL,
+            is_correct INTEGER NOT NULL DEFAULT 0
+        );
+
+        CREATE TABLE IF NOT EXISTS sd_progress (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id TEXT NOT NULL,
+            topic_id INTEGER NOT NULL REFERENCES sd_topics(id) ON DELETE CASCADE,
+            score INTEGER NOT NULL DEFAULT 0,
+            total INTEGER NOT NULL DEFAULT 0,
+            completed INTEGER NOT NULL DEFAULT 0,
+            last_attempted TEXT DEFAULT (datetime('now')),
+            UNIQUE(user_id, topic_id)
+        );
         """
     )
     _migrate_review_items_table(conn)

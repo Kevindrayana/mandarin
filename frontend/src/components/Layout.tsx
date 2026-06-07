@@ -37,10 +37,13 @@ export function Layout() {
         <div className="top-bar-actions">
           <nav className="nav-tabs" aria-label="Main">
             <Link to="/" className={quizNavClass(pathname)}>
-              Quiz
+              HSK Quiz
             </Link>
             <NavLink to="/review" className={linkClass}>
               Review
+            </NavLink>
+            <NavLink to="/roadmap" className={linkClass}>
+              DDIA
             </NavLink>
           </nav>
           <button
